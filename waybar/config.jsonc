@@ -10,8 +10,39 @@
 
 {
     "layer": "top",
-    "position": "bottom",
-    "height": 30,
-    "width": auto,
+    "position": "top",
+    "height": 20,
     "spacing": 4,
+
+    modules-left [ "clock" ],
+    modules-center [ "hyprland/window" ],
+    modules-right [ "memory", "cpu", "battery" ],
+
+    "clocl": {
+        "format": "{:%H:%M - %A}"
+    },
+
+    "hyprland/window": {
+        "format": "{}"
+    },
+
+    "memory": {
+        "interval": 5,
+        "format": "Mem {}%"
+    },
+
+    "cpu": {
+        "interval": 5,
+        "format": "CPU {usage:2}%"
+    },
+
+    "battery": {
+        "states": {
+            "good": 95,
+            "ok": 50,
+            "bad": 20
+        },
+
+        "format": "{capacity}%"
+    }
 }
