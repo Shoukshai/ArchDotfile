@@ -4,6 +4,7 @@ My mediocre hyprland config that prolly no one beside me gonna use.
 ## Table of contents
 - [Roadmap](#Roadmap)
 - [Important](#Important)
+- [Status](#Status)
 
 ## Roadmap
 - [x] The basics of Hyprland (Binds/Wallpapers/Terminal)
@@ -23,3 +24,6 @@ and it should contain
 ExecStart=
 ExecStart=-/usr/bin/agetty --autologin YOUR_USERNAME --noclear %I %TERM
 ```
+
+## Status
+Uhhhhh usable ig ?
