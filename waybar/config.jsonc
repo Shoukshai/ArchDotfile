@@ -28,12 +28,12 @@
 
     "memory": {
         "interval": 5,
-        "format": "Mem {}%"
+        "format": "Mem \uefc5   {}%"
     },
 
     "cpu": {
         "interval": 5,
-        "format": "CPU {usage:2}%"
+        "format": "CPU \uf4bc   {usage:2}%"
     },
 
     "battery": {
@@ -43,6 +43,6 @@
             "bad": 20
         },
 
-        "format": "{capacity}%"
+        "format": "\udb80\udc79   {capacity}%"
     }
 }
