@@ -8,11 +8,12 @@ My mediocre hyprland config that prolly no one beside me gonna use.
 
 ## Roadmap
 - [x] The basics of Hyprland (Binds/Wallpapers/Terminal)
-- [x] Basic Waybar
-- [x] Basic Hyprlock
-- [ ] Waybar CSS/Menus
-- [ ] Dunst
+- [x] Hyprlock
+- [ ] Waybar Config/CSS
+- [ ] Wofi (Launcher)
+- [ ] Dunst (Notifications)
 - [ ] Colors
+- [ ] NeoVim/Btop/FastFetch
 - [ ] Install.sh
 
 ## Important
@@ -24,6 +25,8 @@ and it should contain
 ExecStart=
 ExecStart=-/usr/bin/agetty --autologin YOUR_USERNAME --noclear %I %TERM
 ```
+
+NerdFont is needed aswell for icons, I just took the first one `0xProto` but Im using the basics one for everything I think
 
 ## Status
 Uhhhhh usable ig ?
