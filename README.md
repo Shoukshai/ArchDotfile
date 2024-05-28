@@ -4,6 +4,7 @@ My mediocre hyprland config that prolly no one beside me gonna use.
 ## Table of contents
 - [Roadmap](#Roadmap)
 - [Important](#Important)
+- [Applications](#Applications)
 - [Status](#Status)
 
 ## Roadmap
@@ -27,6 +28,16 @@ ExecStart=-/usr/bin/agetty --autologin YOUR_USERNAME --noclear %I %TERM
 ```
 
 NerdFont is needed aswell for icons, I just took the first one `0xProto` but Im using the basics one for everything I think
+
+##Applications
+- Hyprland/Hyprlock/Hyprpaper
+- Alacritty
+- btop
+- waybar
+- wofi
+- dunst
+- NeoVim
+- FastFetch
 
 ## Status
 Uhhhhh usable ig ?
