@@ -29,6 +29,8 @@ ExecStart=-/usr/bin/agetty --autologin YOUR_USERNAME --noclear %I %TERM
 
 NerdFont is needed aswell for icons, I just took the first one `0xProto` but Im using the basics one for everything I think
 
+For the sound managment I use for now alsamixer (`pacman -S alsa-utils`)
+
 ## Applications
 - Hyprland/Hyprlock/Hyprpaper
 - Alacritty
