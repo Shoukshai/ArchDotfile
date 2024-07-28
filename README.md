@@ -38,6 +38,7 @@ For the sound managment I use for now alsamixer (`pacman -S alsa-utils`)
 - waybar
 - wofi
 - dunst
+- ani-cli
 - NeoVim
 - FastFetch
 
