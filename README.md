@@ -11,7 +11,7 @@ My mediocre hyprland config that prolly no one beside me gonna use.
 - [x] The basics of Hyprland (Binds/Wallpapers/Terminal)
 - [x] Hyprlock
 - [ ] Waybar Config/CSS
-- [ ] Wofi (Launcher)
+- [x] Wofi (Launcher) (Partially done)
 - [ ] Dunst (Notifications)
 - [ ] Colors
 - [ ] NeoVim/Btop/FastFetch
