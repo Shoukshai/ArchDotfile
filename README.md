@@ -32,15 +32,16 @@ NerdFont is needed aswell for icons, I just took the first one `0xProto` but Im 
 For the sound managment I use for now alsamixer (`pacman -S alsa-utils`)
 
 ## Applications
-- Hyprland/Hyprlock/Hyprpaper
-- Alacritty
-- btop
-- waybar
-- wofi
-- dunst
-- ani-cli
-- NeoVim
-- FastFetch
+- Hyprland/Hyprlock/Hyprpaper (WM/Screen Lock/Wallpaper)
+- Alacritty (Terminal)
+- btop (CLI procces manager)
+- waybar (Status bar)
+- alsamixer (CLI Sound managment)
+- wofi (Launcher)
+- dunst (notification manager)
+- ani-cli (CLI Anime brower)
+- NeoVim (CLI Text editor)
+- FastFetch (Info displayer)
 
 ## Status
 Uhhhhh usable ig ?
