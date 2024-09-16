@@ -42,6 +42,7 @@ For the sound managment I use for now alsamixer (`pacman -S alsa-utils`)
 - ani-cli (CLI Anime brower)
 - NeoVim (CLI Text editor)
 - FastFetch (Info displayer)
+- Hyprshot (Screenshow client for wayland)
 
 ## Status
 Uhhhhh usable ig ?
