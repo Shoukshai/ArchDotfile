@@ -7,8 +7,6 @@ My mediocre hyprland config that prolly no one beside me gonna use.
 - [Applications](#Applications)
 - [Status](#Status)
 
-[[_TOC_]]
-
 ## Roadmap
 - [x] The basics of Hyprland (Binds/Wallpapers/Terminal)
 - [x] Hyprlock
