@@ -22,17 +22,6 @@ I will start to work on this project again, the "first version" was a complete m
 For the sound managment I use for now alsamixer (`pacman -S alsa-utils`)
 
 ## Applications [**TBD**]
-- Probably 
-- Probably 
--  (CLI procces manager)
-- Idk (Status bar)
-- Probably alsamixer (CLI Sound managment)
-- Idk but probably wofi (Launcher)
-- Idk but probably dunst (notification manager)
-- ani-cli (CLI Anime brower)
-- NeoVim (CLI Text editor)
-- FastFetch (Info displayer)
-
 ### Window Managers
 - ![River WM](https://codeberg.org/river/river) (probably)
 
