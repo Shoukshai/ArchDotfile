@@ -1,5 +1,8 @@
 # Shouk's Hyprland Dotfile
-My mediocre hyprland config that prolly no one beside me gonna use.
+
+![Under Renovation](https://img.shields.io/badge/Under%20Renovation-red?style=flat)
+![Arch Linux](https://img.shields.io/badge/-Arch%20Linux-1793D1?logo=arch-linux&logoColor=white)
+![Neovim](https://img.shields.io/badge/Neovim-57A143?logo=neovim&logoColor=white&style=flat)
 
 ## Table of contents
 - [Roadmap](#Roadmap)
@@ -8,41 +11,27 @@ My mediocre hyprland config that prolly no one beside me gonna use.
 - [Status](#Status)
 
 ## Roadmap
-- [x] The basics of Hyprland (Binds/Wallpapers/Terminal)
-- [x] Hyprlock
-- [ ] Waybar Config/CSS
-- [x] Wofi (Launcher) (Partially done)
-- [ ] Dunst (Notifications)
+- [ ] Find a good tiling window manager that dosen't kills performances
 - [ ] Colors
-- [ ] NeoVim/Btop/FastFetch
+- [ ] NeoVim/Btop/FastFetch/Firefox Homepage
 - [ ] Install.sh
 
 ## Important
-If you want autologin and so autostart Hyprland when booting create a file in `/etc/systemd/system/getty@tty1.service.d/` (mkdir it if it dosen't exist) and call the file `override.conf`
-and it should contain
-
-```bash
-[Service]
-ExecStart=
-ExecStart=-/usr/bin/agetty --autologin YOUR_USERNAME --noclear %I %TERM
-```
-
-NerdFont is needed aswell for icons, I just took the first one `0xProto` but Im using the basics one for everything I think
+I will start to work on this project again, the "first version" was a complete mess.
 
 For the sound managment I use for now alsamixer (`pacman -S alsa-utils`)
 
-## Applications
-- Hyprland/Hyprlock/Hyprpaper (WM/Screen Lock/Wallpaper)
-- Alacritty (Terminal)
-- btop (CLI procces manager)
-- waybar (Status bar)
-- alsamixer (CLI Sound managment)
-- wofi (Launcher)
-- dunst (notification manager)
+## Applications [**TBD**]
+- Probably ![River WM](https://codeberg.org/river/river)
+- Probably ![Kitty](https://github.com/kovidgoyal/kitty)
+- ![btop](https://github.com/aristocratos/btop) (CLI procces manager)
+- Idk (Status bar)
+- Probably alsamixer (CLI Sound managment)
+- Idk but probably wofi (Launcher)
+- Idk but probably dunst (notification manager)
 - ani-cli (CLI Anime brower)
 - NeoVim (CLI Text editor)
 - FastFetch (Info displayer)
-- Hyprshot (Screenshow client for wayland)
 
 ## Status
-Uhhhhh usable ig ?
+UNDER BIG RENOVATION, NOT USABLE AT ALL
