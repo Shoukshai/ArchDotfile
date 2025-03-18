@@ -38,4 +38,5 @@ For the sound managment I use for now alsamixer (`pacman -S alsa-utils`)
 - dunst (probably the notification manager)
 
 ## **Status:**
-- **UNDER BIG RENOVATION**, **NOT USABLE AT ALL**. Please check back later or feel free to contribute if you'd like to help out.
+> [!Warning]
+> **UNDER BIG RENOVATION**, **NOT USABLE AT ALL**. Please check back later or feel free to contribute if you'd like to help out.
