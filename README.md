@@ -22,9 +22,9 @@ I will start to work on this project again, the "first version" was a complete m
 For the sound managment I use for now alsamixer (`pacman -S alsa-utils`)
 
 ## Applications [**TBD**]
-- Probably ![River WM](https://codeberg.org/river/river)
-- Probably ![Kitty](https://github.com/kovidgoyal/kitty)
-- ![btop](https://github.com/aristocratos/btop) (CLI procces manager)
+- Probably 
+- Probably 
+-  (CLI procces manager)
 - Idk (Status bar)
 - Probably alsamixer (CLI Sound managment)
 - Idk but probably wofi (Launcher)
@@ -33,5 +33,20 @@ For the sound managment I use for now alsamixer (`pacman -S alsa-utils`)
 - NeoVim (CLI Text editor)
 - FastFetch (Info displayer)
 
-## Status
-UNDER BIG RENOVATION, NOT USABLE AT ALL
+### Window Managers
+- ![River WM](https://codeberg.org/river/river) (probably)
+
+### Terminal Applications
+- ![Kitty](https://github.com/kovidgoyal/kitty) (probably)
+- ![btop](https://github.com/aristocratos/btop) (CLI process manager)
+- ![ani-cli](https://github.com/pystardust/ani-cli) (CLI anime browser)
+- NeoVim (CLI text editor)
+- FastFetch (info displayer)
+
+### Utilities
+- alsamixer (CLI sound management)
+- wofi (probably the launcher)
+- dunst (probably the notification manager)
+
+## **Status:**
+- **UNDER BIG RENOVATION**, **NOT USABLE AT ALL**. Please check back later or feel free to contribute if you'd like to help out.
