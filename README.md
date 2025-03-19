@@ -23,7 +23,7 @@ For the sound managment I use for now alsamixer (`pacman -S alsa-utils`)
 
 ## Applications [**TBD**]
 ### Window Managers
-- ![River WM](https://isaacfreund.com/software/river/) (probably)
+- ![River WM](https://isaacfreund.com/software/river) (probably)
 
 ### Terminal Applications
 - ![Kitty](https://github.com/kovidgoyal/kitty) (probably)
