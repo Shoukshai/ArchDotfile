@@ -20,7 +20,7 @@
 ## Important
 I will start to work on this project again, the "first version" was a complete mess.
 
-This "dotfile" is made for me and MY laptop, I will not take any responsability if anything happend
+This "dotfile" is made for me and MY laptop, I will not take any responsability if anything happend / is wrongly configured / you don't like it
 
 ## Applications [**TBD**]
 ### Window Managers
