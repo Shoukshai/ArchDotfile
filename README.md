@@ -11,6 +11,7 @@
 - [Status](#Status)
 
 ## Roadmap
+- [x] Find a good wallpaper
 - [ ] Find a good tiling window manager that dosen't kills performances
 - [ ] Colors
 - [ ] NeoVim/Btop/FastFetch/Firefox Homepage
@@ -23,7 +24,7 @@ For the sound managment I use for now alsamixer (`pacman -S alsa-utils`)
 
 ## Applications [**TBD**]
 ### Window Managers
-- ![River WM](https://isaacfreund.com/software/river) (probably)
+- RiverWM / Hyprland / DWL (Hard to decide)
 
 ### Terminal Applications
 - ![Kitty](https://github.com/kovidgoyal/kitty) (probably)
@@ -34,8 +35,31 @@ For the sound managment I use for now alsamixer (`pacman -S alsa-utils`)
 
 ### Utilities
 - alsamixer (CLI sound management)
-- wofi (probably the launcher)
-- dunst (probably the notification manager)
+- tofi (probably the launcher)
+
+### Others [**TBD**]
+- cpupower (So my laptop is not a rocket in class) OR amdctl + thermald
+```bash
+sudo cpupower frequency-set -u 3.4GHz
+```
+- pipewire wireplumber pipewire-alsa pipewire-pulse alsa-utils (Sound managment)
+[(This could help if I encounter issues)](https://wiki.radioreference.com/index.php/ALSA)
+```bash
+alsamixer
+pactl list sinks 
+pactl set-sink-volume @DEFAULT_SINK@ 50%
+```
+- Nvidia drivers
+```bash
+sudo pacman -S nvidia nvidia-utils nvidia-settings lib32-nvidia-utils
+__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia <program> # To force an app to use the nvidia gpu
+```
+> [!Note]
+> I have no fucking clue how the iGPU and dGPU works on linux, I Have to look into that
+- mangohud (Perf overlay)
+- exa (Seem to be a better ls)
+- wl-clipboard (Clipboard manager?)
+
 
 ## **Status:**
 > [!Warning]
