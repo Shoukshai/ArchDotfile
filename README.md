@@ -12,7 +12,7 @@
 
 ## Roadmap
 - [x] Find a good wallpaper
-- [ ] Find a good tiling window manager that dosen't kills performances
+- [x] Find a tiling window manager
 - [ ] Colors
 - [ ] NeoVim/Btop/FastFetch/Firefox Homepage
 - [ ] Install.sh
@@ -24,7 +24,7 @@ For the sound managment I use for now alsamixer (`pacman -S alsa-utils`)
 
 ## Applications [**TBD**]
 ### Window Managers
-- RiverWM / Hyprland / DWL (Hard to decide)
+- Hyprland
 
 ### Terminal Applications
 - ![Kitty](https://github.com/kovidgoyal/kitty) (probably)
