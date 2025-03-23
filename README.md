@@ -20,7 +20,7 @@
 ## Important
 I will start to work on this project again, the "first version" was a complete mess.
 
-For the sound managment I use for now alsamixer (`pacman -S alsa-utils`)
+This "dotfile" is made for me and MY laptop, I will not take any responsability if anything happend
 
 ## Applications [**TBD**]
 ### Window Managers
