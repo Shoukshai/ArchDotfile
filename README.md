@@ -51,7 +51,7 @@ sudo cpupower frequency-set -u 3.4GHz
 ```
 - Nvidia drivers
 ```bash
-sudo pacman -S nvidia nvidia-utils nvidia-settings lib32-nvidia-utils
+sudo pacman -S nvidia-dkms nvidia-utils nvidia-settings lib32-nvidia-utils egl-wayland 
 __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia <program> # To force an app to use the nvidia gpu
 ```
 > [!Note]
