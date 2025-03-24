@@ -13,7 +13,7 @@
 ## Roadmap
 - [x] Find a good wallpaper
 - [x] Find a tiling window manager
-- [ ] Colors
+- [ ] Colors/Background/Hyprland
 - [ ] NeoVim/Btop/FastFetch/Firefox Homepage
 - [ ] Install.sh
 
@@ -34,20 +34,20 @@ This "dotfile" is made for me and MY laptop, I will not take any responsability 
 - FastFetch (info displayer)
 
 ### Utilities
-- alsamixer (CLI sound management)
 - tofi (probably the launcher)
+- eza (Better ls)
+
+### Sound managment
+- pipewire wireplumber pipewire-alsa pipewire-pulse alsa-utils alsamixer(?) (Sound managment)
+[(This could help if I encounter issues)](https://wiki.radioreference.com/index.php/ALSA)
+```bash
+alsamixer
+```
 
 ### Others [**TBD**]
 - cpupower (So my laptop is not a rocket in class) OR amdctl + thermald
 ```bash
 sudo cpupower frequency-set -u 3.4GHz
-```
-- pipewire wireplumber pipewire-alsa pipewire-pulse alsa-utils (Sound managment)
-[(This could help if I encounter issues)](https://wiki.radioreference.com/index.php/ALSA)
-```bash
-alsamixer
-pactl list sinks 
-pactl set-sink-volume @DEFAULT_SINK@ 50%
 ```
 - Nvidia drivers
 ```bash
@@ -57,7 +57,6 @@ __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia <program> # To forc
 > [!Note]
 > I have no fucking clue how the iGPU and dGPU works on linux, I Have to look into that
 - mangohud (Perf overlay)
-- eza (Seem to be a better ls)
 - wl-clipboard (Clipboard manager?)
 
 
