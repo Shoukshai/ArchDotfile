@@ -27,9 +27,9 @@ This "dotfile" is made for me and MY laptop, I will not take any responsability 
 - Hyprland
 
 ### Terminal Applications
-- ![Kitty](https://github.com/kovidgoyal/kitty) (probably)
-- ![btop](https://github.com/aristocratos/btop) (CLI process manager)
-- ![ani-cli](https://github.com/pystardust/ani-cli) (CLI anime browser)
+- [Kitty](https://github.com/kovidgoyal/kitty) (probably)
+- [btop](https://github.com/aristocratos/btop) (CLI process manager)
+- [ani-cli](https://github.com/pystardust/ani-cli) (CLI anime browser)
 - NeoVim (CLI text editor)
 - FastFetch (info displayer)
 
@@ -57,7 +57,7 @@ __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia <program> # To forc
 > [!Note]
 > I have no fucking clue how the iGPU and dGPU works on linux, I Have to look into that
 - mangohud (Perf overlay)
-- exa (Seem to be a better ls)
+- eza (Seem to be a better ls)
 - wl-clipboard (Clipboard manager?)
 
 
