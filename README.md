@@ -48,6 +48,8 @@ alsamixer
 ```
 
 ### Others [**TBD**]
+- mangohud (Perf overlay)
+- wl-clipboard (Clipboard manager?)
 - cpupower
 ```bash
 sudo cpupower frequency-set -u 3.4GHz
@@ -55,10 +57,6 @@ sudo cpupower frequency-set -u 3.4GHz
 
 > [!Note]
 > I have no fucking clue how the iGPU and dGPU works on linux, I Have to look into that
-
-- mangohud (Perf overlay)
-- wl-clipboard (Clipboard manager?)
-
 
 ## **Status:**
 > [!Warning]
