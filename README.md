@@ -23,7 +23,7 @@
 ## Important
 I will start to work on this project again, the "first version" was a complete mess.
 
-This "dotfile" is made for me and MY laptop, I will not take any responsability if anything happend / is wrongly configured / you don't like it
+This "dotfile" is made for me and MY laptop, Im too lazy to figure out for other resolutions/ppl
 
 ## Applications [**TBD**]
 ### Window Managers
@@ -37,8 +37,14 @@ This "dotfile" is made for me and MY laptop, I will not take any responsability 
 - FastFetch (info displayer)
 
 ### Utilities
+- Hyprlock (lock session)
+- Hyprpaper (wallpaper)
 - tofi (probably the launcher)
 - eza (Better ls)
+- cpupower
+```bash
+sudo cpupower frequency-set -u 3.4GHz
+```
 
 ### Sound managment
 - pipewire wireplumber pipewire-alsa pipewire-pulse alsa-utils alsamixer(?) (Sound managment)
@@ -47,13 +53,9 @@ This "dotfile" is made for me and MY laptop, I will not take any responsability 
 alsamixer
 ```
 
-### Others [**TBD**]
+### Others [**TBD/NOT INSTALLED**]
 - mangohud (Perf overlay)
 - wl-clipboard (Clipboard manager?)
-- cpupower
-```bash
-sudo cpupower frequency-set -u 3.4GHz
-```
 
 > [!Note]
 > I have no fucking clue how the iGPU and dGPU works on linux, I Have to look into that
