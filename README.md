@@ -13,8 +13,11 @@
 ## Roadmap
 - [x] Find a good wallpaper
 - [x] Find a tiling window manager
-- [ ] Colors/Background/Hyprland
-- [ ] NeoVim/Btop/FastFetch/Firefox Homepage
+- [x] Colors/Background/Hyprland
+- [x] Nvidia Drivers
+- [ ] Auto cpupower
+- [ ] Launcher/Bar
+- [ ] NeoVim/Firefox Homepage
 - [ ] Install.sh
 
 ## Important
@@ -45,17 +48,14 @@ alsamixer
 ```
 
 ### Others [**TBD**]
-- cpupower (So my laptop is not a rocket in class) OR amdctl + thermald
+- cpupower
 ```bash
 sudo cpupower frequency-set -u 3.4GHz
 ```
-- Nvidia drivers
-```bash
-sudo pacman -S nvidia-dkms nvidia-utils nvidia-settings lib32-nvidia-utils egl-wayland 
-__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia <program> # To force an app to use the nvidia gpu
-```
+
 > [!Note]
 > I have no fucking clue how the iGPU and dGPU works on linux, I Have to look into that
+
 - mangohud (Perf overlay)
 - wl-clipboard (Clipboard manager?)
 
