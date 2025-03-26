@@ -15,9 +15,10 @@
 - [x] Find a tiling window manager
 - [x] Colors/Background/Hyprland
 - [x] Nvidia Drivers
+- [ ] Web Browser
 - [ ] Auto cpupower
 - [ ] Launcher/Bar
-- [ ] NeoVim/Firefox Homepage
+- [ ] NeoVim
 - [ ] Install.sh
 
 ## Important
@@ -35,16 +36,17 @@ This "dotfile" is made for me and MY laptop, Im too lazy to figure out for other
 - [ani-cli](https://github.com/pystardust/ani-cli) (CLI anime browser)
 - NeoVim (CLI text editor)
 - FastFetch (info displayer)
+- cpupower
+```bash
+sudo cpupower frequency-set -u 3.4GHz
+```
 
 ### Utilities
 - Hyprlock (lock session)
 - Hyprpaper (wallpaper)
 - tofi (probably the launcher)
 - eza (Better ls)
-- cpupower
-```bash
-sudo cpupower frequency-set -u 3.4GHz
-```
+- mercury or zen (Web browser)
 
 ### Sound managment
 - pipewire wireplumber pipewire-alsa pipewire-pulse alsa-utils alsamixer(?) (Sound managment)
