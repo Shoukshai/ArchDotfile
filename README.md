@@ -46,7 +46,7 @@ sudo cpupower frequency-set -u 3.4GHz
 - Hyprpaper (wallpaper)
 - tofi (probably the launcher)
 - eza (Better ls)
-- mercury or zen (Web browser)
+- librewolf (Web browser)
 
 ### Sound managment
 - pipewire wireplumber pipewire-alsa pipewire-pulse alsa-utils alsamixer(?) (Sound managment)
