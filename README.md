@@ -16,7 +16,7 @@
 - [x] Colors/Background/Hyprland
 - [x] Nvidia Drivers
 - [ ] Web Browser
-- [ ] Auto cpupower
+- [x] Auto cpupower
 - [ ] Launcher/Bar
 - [ ] NeoVim
 - [ ] Install.sh
